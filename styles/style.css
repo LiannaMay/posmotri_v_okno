@@ -9,6 +9,8 @@ html {
 }
 
 .page {
+  display: flex;
+  justify-content: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -36,3 +38,52 @@ ul,
 ol {
   list-style: none;
 }
+
+.content {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto 0;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 62.37%;
+  height:456px;
+  gap: 16px;
+
+}
+.result__video {
+  width: 711px;
+  gap: 0px;
+  /* opacity: 0px; */
+
+}
+
+.content__details {
+ display: flex;
+ flex-direction: column;
+  gap: 26px;
+  opacity: 0px;
+  width: 711px;
+
+}
+.search-form {
+ display: flex;
+ justify-content: space-between;
+  width: 711px;
+  height: 54px;
+  gap: 40px;
+
+}
+.content__list {
+  /* width: 394px; */
+  height: 298px;
+  overflow:auto;
+  
+
+}
+
