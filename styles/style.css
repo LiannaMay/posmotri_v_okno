@@ -325,6 +325,8 @@ ol {
 }
 
 .content__card-link {
+  margin: 2px;
+  display: block;
   text-decoration: none;
 }
 
@@ -332,4 +334,19 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 6px;
+}
+
+.content__card-link_current:focus {
+  outline: none;
+}
+
+.content__card-link_current:focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: 1px;
+  line-height: 1;
+}
+
+.content__video-card-description-container:hover {
+  text-decoration: underline #fff;
+  text-decoration-skip-ink: none;
 }
